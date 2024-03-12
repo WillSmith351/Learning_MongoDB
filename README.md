@@ -24,6 +24,27 @@ Lors de l'utilisation de MongoDB, certaines bases de données sont créées auto
 Ces bases de données sont essentielles au fonctionnement interne de MongoDB et fournissent des informations utiles pour la gestion et le monitoring de vos instances MongoDB.
 
 
+## Utiliser MongoDB Shell (mongosh)
+
+`mongosh` est l'interface de ligne de commande pour MongoDB, permettant d'interagir directement avec vos bases de données et collections. Voici quelques commandes de base pour vous aider à démarrer :
+
+- **`mongosh`** : Lancez le terminal de MongoDB. Une fois ouvert, vous pouvez exécuter diverses commandes pour interagir avec vos bases de données.
+
+- **`show dbs`** : Affiche toutes les bases de données présentes sur votre serveur MongoDB.
+
+- **`use <database>`** : Permet de basculer sur une base de données spécifique. Remplacez `<database>` par le nom de votre base de données. Si la base de données n'existe pas, MongoDB la crée dès que vous y insérez des données.
+
+- **`cls`** : Nettoie le terminal pour une meilleure lisibilité.
+
+- **`db`** : Affiche le nom de la base de données actuellement utilisée.
+
+- **`show collections`** : Liste toutes les collections présentes dans la base de données en cours d'utilisation.
+
+- **`exit`** : Quitte `mongosh`.
+
+Le nom affiché avant le symbole `>` dans le terminal représente la base de données actuellement sélectionnée. `mongosh` permet une interaction fluide avec vos données MongoDB, facilitant la création, la consultation et la gestion de vos bases de données et collections.
+
+
 ## Contenu du Repository
 
 ### Scripts et Fichiers

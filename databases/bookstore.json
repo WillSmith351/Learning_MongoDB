@@ -29,5 +29,16 @@
       "adventure"
     ],
     "rating": 10
+  },
+  {
+    "title": "Attack On Titan, To You, 2000 Years From Now",
+    "author": "Hajime Isayama",
+    "pages": 208,
+    "genre": ["manga", "horror"],
+    "rating": 9
+  },
+  {
+    "name": "J. K. Rowling",
+    "age": 58
   }
 ]
