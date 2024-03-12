@@ -1,0 +1,33 @@
+[
+   {
+    "title": "Harry Potter and the philosopher's stone",
+    "author": "J. K. Rowling",
+    "pages": 305,
+    "genre": [
+        "fantasy", 
+        "mystery", 
+        "magical"],
+    "rating": 9
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets ",
+    "author": "J. K. Rowling",
+    "pages": 341,
+    "genre": [
+        "fantasy",
+        "mystery",
+        "magical"
+    ],
+    "rating": 8
+  },
+  {
+    "title": "One Piece ROMANCE DAWN - The Dawn of the Adventure",
+    "author": "Eiichirō Oda",
+    "pages": 216,
+    "genre": [
+      "manga",
+      "adventure"
+    ],
+    "rating": 10
+  }
+]

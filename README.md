@@ -10,6 +10,20 @@ MongoDB est une base de données NoSQL qui utilise des collections et des docume
 - **Documents** : Structurés en BSON, ressemblent à du JSON avec des paires clé-valeur, et peuvent contenir des documents embarqués pour une structuration de données plus complexe.
 - **ObjectId** : Chaque document possède un identifiant unique attribué par MongoDB, garantissant l'unicité et facilitant les opérations de recherche.
 
+
+## Bases de Données Système MongoDB
+
+Lors de l'utilisation de MongoDB, certaines bases de données sont créées automatiquement et peuvent être visualisées dans MongoDB Compass. Ces bases de données système servent à diverses fonctions internes de MongoDB :
+
+- **`local`** : Cette base de données contient les données de journalisation du démarrage (`startup log`). Vous y trouverez des documents représentant chaque instance où MongoDB a été démarré. Ces informations sont utiles pour le diagnostic et l'audit du système.
+
+- **`config`** : Elle stocke la configuration des clusters MongoDB, notamment les informations de sharding et de réplication. Cette base de données joue un rôle crucial dans les déploiements distribués de MongoDB.
+
+- **`admin`** : Sert de base de données administrative. Elle peut contenir des informations sur les utilisateurs et leurs rôles au niveau du cluster, ainsi que d'autres données de configuration globales.
+
+Ces bases de données sont essentielles au fonctionnement interne de MongoDB et fournissent des informations utiles pour la gestion et le monitoring de vos instances MongoDB.
+
+
 ## Contenu du Repository
 
 ### Scripts et Fichiers
