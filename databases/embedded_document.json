@@ -1,0 +1,13 @@
+{
+    "nom": "Jean Dupont",
+    "adresse": {
+      "rue": "123 rue de Paris",
+      "ville": "Paris",
+      "codePostal": "75001"
+    },
+    "contacts": [
+      {"type": "email", "valeur": "jean.dupont@email.com"},
+      {"type": "téléphone", "valeur": "+33102030405"}
+    ]
+  }
+  
